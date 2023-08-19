@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 0;
+}
+
+.col-2 {
+    display: flex;
+}
+
+.nav-text {
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.main-table {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+th {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid gray;
+    padding: 10px 10px;
+}
+
+.table-container {
+    background-color: #fbffff;
+    width: 50vw;
+    height: 100vh;
+    margin-left: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+form {
+    margin-left: 50px;
+}
+
+.form-section {
+    width: 50vw;
+    margin-left: 20px;
+    background-color: #fbffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.taext-form {
+    font-weight: 900;
+}
+
+.input {
+    width: 600px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#text-register {
+    padding-bottom: 20px;
+}
+
+.register {
+    width: 620px;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+}
